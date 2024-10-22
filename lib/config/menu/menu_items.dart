@@ -23,6 +23,12 @@ const appMenuItems = <MenuItem>[
     icon: Icons.home
   ),
   MenuItem(
+    title: 'Cards',
+    subTitle: 'Go to Cards',
+    link: '/cards',
+    icon: Icons.credit_card
+  ),
+  MenuItem(
     title: 'About',
     subTitle: 'Go to About',
     link: '/about',
@@ -45,6 +51,12 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Go to Help',
     link: '/help',
     icon: Icons.help
+  ),
+  MenuItem(
+    title: 'Buttons',
+    subTitle: 'Go to Buttons',
+    link: '/buttons',
+    icon: Icons.touch_app
   ),
   MenuItem(
     title: 'Exit',
