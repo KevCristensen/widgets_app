@@ -17,6 +17,12 @@ class MenuItem{
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+    title: 'Counter Screen',
+    subTitle: 'Contador de clicks',
+    link: '/counter_screen',
+    icon: Icons.add
+  ),
+  MenuItem(
     title: 'Cards',
     subTitle: 'Go to Cards',
     link: '/cards',
@@ -58,4 +64,17 @@ const appMenuItems = <MenuItem>[
     link: '/tutorial',
     icon: Icons.accessible_rounded
   ),
+  MenuItem(
+    title: 'InifniteScroll y Pull',
+    subTitle: 'Listas infinitas y pull to refresh',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded
+  ),
+  MenuItem(
+    title: 'Cambiar Tema',
+    subTitle: 'Cambiar el tema de la aplicación',
+    link: '/theme-changer',
+    icon: Icons.color_lens_outlined
+  ),
+  
 ];
